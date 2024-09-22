@@ -1,0 +1,115 @@
+/* Ogólne style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    color: black;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Nagłówek */
+header {
+    background-image: url(nieboo.jpg);
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Sekcje */
+section {
+    margin: 20px 0;
+}
+
+.about, .goals, .cta {
+    background-image: url(nieboo.jpg);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p, ul {
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.vote-button {
+    display: block;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.vote-button:hover {
+    background-color: #0056b3;
+}
+
+/* Stopka */
+footer {
+    background-image: url(nieboo.jpg);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Mobile Friendly */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p, ul {
+        font-size: 14px;
+    }
+
+    .vote-button {
+        font-size: 16px;
+    }
+}
